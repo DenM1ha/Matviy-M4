@@ -56,7 +56,7 @@ p {
 article {
    /* background-color: #3C3E73; */
    width: 600px;
-   border: 4px #3C3E73 solid;
+   border: 4px #3C3E73 dashed;
    margin: 20px;
    padding: 20px;
    text-align: center;
