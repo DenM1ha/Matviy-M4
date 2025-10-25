@@ -8,24 +8,26 @@ body {
 
 header {
     background-color: #5E66F2;
-    
-}
-
-.button {
+    text-align: center;
+    padding: 15px 0;
     
 }
 
 nav {
     background-color: #5E66F2;
-    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .nav-link {
+    color: white;
     text-decoration: none;
-    color: black;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
 .zagolovok {
@@ -35,10 +37,6 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-}
-
-h1 {
-    
 }
 
 p {
@@ -80,19 +78,10 @@ article {
     font-size: 20px;
 }
 
-
-
 footer {
     background-color: #592D1D;
     color: #ffffff;
     text-align: center;
     padding: 7px;
     margin-top: 60px;
-}
-
-footer a {
-    
-}
-
-footer p {
 }
