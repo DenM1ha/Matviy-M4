@@ -1,0 +1,107 @@
+/* === Основні налаштування сторінки === */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background-color:#AFB3FA;
+    text-align: center;
+}
+
+/* === Шапка === */
+header {
+    background-color: #5E66F2;
+    text-align: center;
+    padding: 15px 0;
+    /* border-bottom: 2px solid #e0e0e0; */
+}
+
+/* === Навігація === */
+nav {
+    background-color: #5E66F2;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffb100;
+}
+
+/* === Основна частина === */
+.zagolovok {
+    background-color: #3C3E73;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.zagolovok h1 {
+    color: white;
+}
+
+.cultist {
+    width: 195px;
+    height: 310px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #FAD1AF; /*D8FAAF*/
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+main img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* === Заголовки === */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2, h3 {
+    color: #444;
+    margin-top: 25px;
+}
+
+/* === Текст === */
+.info p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.source {
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* === Футер === */
+footer {
+    background-color: #592D1D;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+    margin-top: 60px;
+    font-size: 20px;
+}
